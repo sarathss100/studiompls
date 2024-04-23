@@ -1,0 +1,311 @@
+body {
+  margin: 0px;
+  background-color: #ecedea;
+}
+
+header {
+  height: 150px;
+}
+
+.container {
+  padding: 0px 100px;
+  height: 150px;
+}
+
+.navbar {
+  width: 100%;
+  height: 150px;
+}
+
+.logo {
+  width: 350px;
+  height: 150px;
+  position: relative;
+}
+
+.navbar-left {
+  float: left;
+}
+
+.logo img {
+  position: absolute;
+  top: 51.031px;
+}
+
+.navbar-right {
+  float: right;
+  height: 150px;
+}
+
+.navbar-right > ul {
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+}
+
+.navbar-right ul > li {
+  display: inline-block;
+}
+
+.navbar-right .button {
+  padding: 16px 24px 14px 0px;
+  border: 1px solid black;
+  border-radius: 60px;
+}
+
+#start {
+  padding-left: 29px;
+}
+
+#about {
+  padding: 0px 29px;
+}
+
+#logos {
+  padding-right: 29px;
+}
+
+.menu {
+  margin: 51px 0px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 100px;
+}
+
+.content_row_1 {
+  padding: 0px 15px;
+}
+
+.container_wrapper {
+  padding: 60px 0px 10px 0px;
+}
+
+h1 {
+  font-family: "Roboto Serif", serif;
+  font-size: 70px;
+  font-weight: 100;
+  margin: 0px;
+}
+
+#first {
+  font-family: "Roboto Serif", serif;
+  font-size: 37px;
+  font-weight: 100;
+  margin: 0px;
+}
+
+.content_row_2 {
+  padding: 0px 15px;
+}
+
+.content_wrapper {
+  padding-top: 55px;
+}
+
+.button2 {
+  display: inline-block;
+  border: 1px solid black;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18px;
+  padding: 16px 30px 13px;
+  border-radius: 40px;
+}
+
+.display_flex_container {
+  display: flex;
+  flex-direction: row;
+  padding: 70px 100px 0px 100px;
+}
+
+.display_col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0px 15px;
+  gap: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.view_section {
+  padding: 0px 100px;
+}
+
+.view_container {
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.view_content {
+  font-family: "Roboto Serif", serif;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 90px 0px 120px 0px;
+}
+
+.proc_section {
+  padding: 0px 100px;
+  background-color: black;
+  height: 210px;
+}
+
+.proc_container {
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.proc_content {
+  padding: 150px 0px 10px 0px;
+  font-family: "Roboto Serif", serif;
+  font-size: 50px;
+  color: rgb(236, 237, 234);
+}
+
+.des_section {
+  padding: 100px 100px 150px 100px;
+  background-color: black;
+  color: rgb(236, 237, 234);
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.des_col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.num {
+  font-size: 65px;
+}
+
+.head {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text {
+  text-align: center;
+  padding: 0px 60px;
+  font-size: 16px;
+}
+
+.client_content {
+  padding-top: 150px;
+  font-size: 70px;
+  font-family: "Roboto Serif", serif;
+  font-weight: 100;
+}
+
+.demo_content {
+  padding: 150px 0px 90px 0px;
+}
+
+footer {
+  background-color: black;
+  color: rgb(236, 237, 234);
+}
+
+.footer_section_1 {
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  gap: 2rem;
+}
+
+.newsletter {
+  font-family: "Roboto Serif", serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.news_head {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.news_body {
+  font-size: 1rem;
+  width: 60%;
+}
+
+.connect {
+  font-family: "Roboto Serif", serif;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.connect_head {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.connect_body {
+  font-size: 1rem;
+}
+
+.footer_right {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: end;
+}
+
+.footer_button {
+  padding: 25px 35px 20px 35px;
+  background-color: rgb(206, 65, 0);
+  border-radius: 40px;
+}
+
+.footer_section-2 {
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.mail_button {
+  width: 225px;
+  padding: 18px 11px;
+  color: #bbc2cf;
+  background-color: #ecedea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.subscribe_button {
+  height: 31px;
+  padding: 8px 32px;
+  border: 2px solid #ecedea;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_section-3 {
+  background-color: black;
+  padding: 370px 100px 60px 100px;
+}
